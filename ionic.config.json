@@ -1,0 +1,7 @@
+{
+  "name": "empleosups",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
