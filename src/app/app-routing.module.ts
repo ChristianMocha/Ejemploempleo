@@ -10,6 +10,18 @@ const routes: Routes = [
   {
     path: 'folder/:id',
     loadChildren: () => import('./folder/folder.module').then( m => m.FolderPageModule)
+  },
+  {
+    path: 'contact',
+    loadChildren: () => import('./contact/contact.module').then( m => m.ContactPageModule)
+  },
+  {
+    path: 'conformacionmensaje',
+    loadChildren: () => import('./conformacionmensaje/conformacionmensaje.module').then( m => m.ConformacionmensajePageModule)
+  },
+  {
+    path: 'lista-contactos',
+    loadChildren: () => import('./lista-contactos/lista-contactos.module').then( m => m.ListaContactosPageModule)
   }
 ];
 

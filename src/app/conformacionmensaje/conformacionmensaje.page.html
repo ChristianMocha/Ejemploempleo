@@ -1,0 +1,18 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Mensaje de confirmacion</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  Confirmacion de envio....
+  <div *ngIf="mensaje">
+
+    salidos {{mensaje.name}}
+  </div>
+
+</ion-content>
